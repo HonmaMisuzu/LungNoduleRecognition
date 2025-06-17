@@ -15,10 +15,19 @@
 * 5.训练癌性预测卷积神经网络。构建并训练一个可以将将结节标记为癌性或非癌性的卷积神经网络模型，并使用前述的几个模型（综合称为肺结节识别模型）对实际的医院诊断数据进行处理与预测。
 
 ## 环境配置
-参照requirements.txt文件，这里给出主要的软件包版本：
+参照[requirements.txt](requirements.txt)，这里给出主要的软件包版本：
 * Python=3.12.2
 * PyTorch=2.2.1
 * pydicom=2.4.4
 * jupyterlab=4.0.11
 
 建议使用[Anaconda](https://www.anaconda.com)进行环境的搭建与管理
+
+pip:
+```
+pip install -r requirements.txt
+```
+conda:
+```
+conda env create -f environment.yml
+```
